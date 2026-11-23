@@ -1,7 +1,7 @@
 // Important Dates
-const loveStartDate = new Date("2023-10-21T23:00:00"); // Relationship start date
-const aathilBirthday = new Date("2000-12-23T00:00:00"); // Aathil's birthday
-const duckyBirthday = new Date("2007-04-22T00:00:00"); // Ducky's birthday
+const loveStartDate = new Date("2025-02-22T23:11:30"); // Relationship start date
+const VylerBirthday = new Date("2006-04-25T00:00:00"); // Aathil's birthday
+const MylerBirthday = new Date("2009-07-16T00:00:00"); // Ducky's birthday
 
 function updateAllCounters() {
   const now = new Date();
@@ -13,10 +13,10 @@ function updateAllCounters() {
   updateNextAnniversary(now);
   
   // Update Aathil's Birthday Countdown
-  updateBirthdayCountdown(now, aathilBirthday, "aathil");
+  updateBirthdayCountdown(now, VylerBirthday, "Vyler");
   
   // Update Ducky's Birthday Countdown
-  updateBirthdayCountdown(now, duckyBirthday, "ducky");
+  updateBirthdayCountdown(now, MylerBirthday, "Myler");
 }
 
 function updateLoveDuration(now) {
